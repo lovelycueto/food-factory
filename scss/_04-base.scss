@@ -8,6 +8,16 @@ body {
   font-size: 1.6rem;
   line-height: 1.4;
   color: $clr-dark;
+  transition: .5s ease;
+
+  // @include mediaQuery($mobile) {
+  //   transform: translateX(-350px);
+  // }
+}
+
+body.show {
+ transform: translateX(-350px);
+ 
 }
 
 a {
